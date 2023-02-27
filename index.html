@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Abdalrhman | Home</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">About</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">Skills</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">Contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Abdalrhman Mostafa </h1>
+        <h2>Developer / Student / Human</h2>
+        <div id="menu">
+            <a onclick="showabout()">About</a>
+            <a onclick="showwork()">Skills</a>
+            <a onclick="showcontact()">Contact</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>Skills</h1>
+        <section>
+            <h2>My Programming Languages</h2>
+            <p>
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Java</div>
+                <div><i class="fas fa-circle"></i>&nbsp;JavaScript</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Python</div>
+                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+                <div><i class="fas fa-circle"></i>&nbsp;PHP</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS</div>
+                <div><i class="fas fa-circle"></i>&nbsp;LUA</div>
+                <div><i class="fas fa-circle"></i>&nbsp;BDFD</div>
+                <div><i class="fas fa-circle"></i>&nbsp;MongoDB</div>
+                <div><i class="fas fa-circle"></i>&nbsp;C</div>
+                <div><i class="fas fa-circle"></i>&nbsp;C++</div>
+            </div>
+
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>About</h1>
+            <section>
+                <h2>My Life Story</h2>
+                <p>
+                    Abdalrhman was just a young boy living in Egypt, with a passion for technology and a dream of becoming a successful YouTuber. In 2018, at the age of 10, he started his own YouTube channel, named "ImAFG." He was inspired by his favorite YouTuber and wanted to follow in their footsteps. However, after a year of creating content, Abdalrhman's channel failed to take off, and he began to have problems in school.
+                </p>
+                <p>
+                    Feeling discouraged, Abdalrhman turned to coding as a way to improve his skills and achieve his dreams. He started learning Python in 2019, as it was recommended as the perfect start for beginners. He quickly discovered that he had a real talent for coding and began to enjoy the process of creating programs and websites.
+                </p>
+                <p>
+                    In 2020, Abdalrhman started selling his coding projects on Fiverr and finally earned his first penny. This was a turning point for him, as it gave him the confidence to continue learning and improving his skills. He began to delve deeper into coding languages such as Java, HTML, CSS, and PHP.
+                </p>
+                <p>
+                    Abdalrhman was able to purchase his dream PC and phone. He continued to work hard and improve his skills, and by the age of 15, he had transformed his life. He was able to buy things online, and make everyone proud, and become a successful coder.
+                </p>
+            </section>
+            <section>
+
+            </section>
+        </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>Contact</h1>
+            <section>
+                <h2>Contact Me</h2>
+                <p>
+                    <form>
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" placeholder="Email" required><br>
+                        <textarea placeholder="Your Message" required rows="1"></textarea><br>
+                        <button class="btn_one">Send</button>
+                    </form> 
+                </p>
+            </section>
+        </div>
+        <div id="footer">
+            made with love by 🖤 <br> <a href="https://github.com/AbdalrhmanSharkawy">Abdalrhman</a>
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
